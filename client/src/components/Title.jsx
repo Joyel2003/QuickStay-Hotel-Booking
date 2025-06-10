@@ -1,8 +1,6 @@
 import React from 'react'
 
-const Title = ({title, subTitle, align, font}) => {
-    console.log(title);
-    
+const Title = ({title, subTitle, align, font}) => {    
   return (
     <div className={`w-full flex flex-col justify-center items-center text-center ${align === "left" && "md:items-start md:text-left"}`}>
       <h1 className={`text-4xl text-black md:text-[40px] ${font || "font-playfair"}`}>{title}</h1>
