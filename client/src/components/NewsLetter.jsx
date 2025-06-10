@@ -1,6 +1,7 @@
 import React from 'react'
 import { assets } from '../assets/assets'
 import Title from './Title'
+import { Form } from 'react-router-dom'
 
 const NewsLetter = () => {
   return (
