@@ -103,7 +103,7 @@ const AllRooms = () => {
                         <CheckBox key={index} label={room}/>
                     ))}
                  </div>
-                 <div className='px-5 pt-5'>
+                 <div className='px-5 pt-5 pb-7'>
                     <p className='font-medium text-gray-800 pb-2'>Price Range</p>
                     {priceRange.map((range, index)=>(
                         <CheckBox key={index} label={`$ ${range}`}/>
